@@ -557,7 +557,7 @@ export default function Home() {
           <div className="min-h-[350px] bg-[#0b0b0b] p-6">
             <div className="relative h-full min-h-[300px] overflow-hidden rounded-xl border border-white/10 bg-[#111]">
               <Image
-                src="/creatorhub-ai.png"
+                src="/creatorhub-ai.jpeg"
                 alt="CreatorHub AI project screenshot"
                 fill
                 className="object-cover object-top transition duration-500 hover:scale-105"
@@ -575,7 +575,7 @@ export default function Home() {
           <div className="order-2 min-h-[350px] bg-[#0b0b0b] p-6 lg:order-1">
   <div className="relative h-full min-h-[300px] overflow-hidden rounded-xl border border-white/10 bg-[#111]">
     <Image
-      src="/portfolio.png"
+      src="/portfolio.jpeg"
       alt="Personal developer portfolio screenshot"
       fill
       className="object-cover object-top transition duration-500 hover:scale-105"
