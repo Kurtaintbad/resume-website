@@ -499,155 +499,128 @@ export default function Home() {
         </div>
       </section>
 
-      {/* PROJECTS */}
-      <section
-        id="projects"
-        className="border-t border-white/10 px-6 py-28 lg:px-10 lg:py-36"
-      >
-        <div className="mx-auto max-w-7xl">
+     {/* PROJECTS */}
+<section
+  id="projects"
+  className="border-t border-white/10 px-6 py-28 lg:px-10 lg:py-36"
+>
+  <div className="mx-auto max-w-7xl">
 
-          <p className="text-sm font-bold uppercase tracking-[0.3em] text-[#c7ff3d]">
-            06 / Projects
-          </p>
+    <p className="text-sm font-bold uppercase tracking-[0.3em] text-[#c7ff3d]">
+      06 / Projects
+    </p>
 
-          <h2 className="mt-6 text-5xl font-black tracking-[-0.04em] sm:text-6xl lg:text-8xl">
-            SELECTED
-            <br />
-            <span className="text-[#c7ff3d]">WORK.</span>
-          </h2>
+    <h2 className="mt-6 text-5xl font-black tracking-[-0.04em] sm:text-6xl lg:text-8xl">
+      SELECTED
+      <br />
+      <span className="text-[#c7ff3d]">WORK.</span>
+    </h2>
 
-          <div className="mt-16 space-y-8">
+    <div className="mt-16 space-y-8">
 
-            {/* PROJECT 01 */}
-            <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02]">
-              <div className="grid lg:grid-cols-2">
+      {/* PROJECT 01 */}
+      <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02]">
+        <div className="grid lg:grid-cols-2">
 
-                <div className="p-8 lg:p-12">
-                  <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#c7ff3d]">
-                    Project 01 / Web Development
-                  </p>
+          <div className="p-8 lg:p-12">
+            <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#c7ff3d]">
+              Project 01 / Web Development
+            </p>
 
-                  <h3 className="mt-6 text-4xl font-black">
-                    CreatorHub AI
-                  </h3>
+            <h3 className="mt-6 text-4xl font-black">
+              CreatorHub AI
+            </h3>
 
-                  <p className="mt-6 max-w-lg text-sm leading-7 text-white/40">
-                    An AI-focused digital product concept designed around
-                    creator content generation and modern web experiences.
-                  </p>
+            <p className="mt-6 max-w-lg text-sm leading-7 text-white/40">
+              An AI-focused digital product concept designed around
+              creator content generation and modern web experiences.
+            </p>
 
-                  <div className="mt-8 flex flex-wrap gap-2">
-                    {[
-                      "Next.js",
-                      "React",
-                      "TypeScript",
-                      "Tailwind CSS",
-                      "AI",
-                    ].map((tag) => (
-                      <span
-                        key={tag}
-                        className="rounded-full border border-white/10 px-3 py-1.5 text-xs text-white/50"
-                      >
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-
-                <div className="min-h-[350px] bg-[#0b0b0b] p-8">
-                  <div className="h-full rounded-xl border border-white/10 bg-[#111] p-4 shadow-2xl">
-                    <div className="flex gap-1.5 border-b border-white/10 pb-4">
-                      <span className="h-2.5 w-2.5 rounded-full bg-white/10" />
-                      <span className="h-2.5 w-2.5 rounded-full bg-white/10" />
-                      <span className="h-2.5 w-2.5 rounded-full bg-white/10" />
-                    </div>
-
-                    <div className="mt-8">
-                      <div className="h-3 w-24 rounded bg-[#c7ff3d]/30" />
-                      <div className="mt-5 h-8 w-3/4 rounded bg-white/10" />
-                      <div className="mt-3 h-3 w-full rounded bg-white/5" />
-                      <div className="mt-2 h-3 w-5/6 rounded bg-white/5" />
-
-                      <div className="mt-10 grid grid-cols-3 gap-3">
-                        <div className="h-20 rounded-lg bg-white/5" />
-                        <div className="h-20 rounded-lg bg-white/5" />
-                        <div className="h-20 rounded-lg bg-[#c7ff3d]/10" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
+            <div className="mt-8 flex flex-wrap gap-2">
+              {[
+                "Next.js",
+                "React",
+                "TypeScript",
+                "Tailwind CSS",
+                "AI",
+              ].map((tag) => (
+                <span
+                  key={tag}
+                  className="rounded-full border border-white/10 px-3 py-1.5 text-xs text-white/50"
+                >
+                  {tag}
+                </span>
+              ))}
             </div>
-
-            {/* PROJECT 02 */}
-            <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02]">
-              <div className="grid lg:grid-cols-2">
-
-                <div className="order-2 min-h-[350px] bg-[#0b0b0b] p-8 lg:order-1">
-                  <div className="h-full rounded-xl border border-white/10 bg-[#111] p-4">
-                    <div className="flex gap-1.5 border-b border-white/10 pb-4">
-                      <span className="h-2.5 w-2.5 rounded-full bg-white/10" />
-                      <span className="h-2.5 w-2.5 rounded-full bg-white/10" />
-                      <span className="h-2.5 w-2.5 rounded-full bg-white/10" />
-                    </div>
-
-                    <div className="mt-8 grid grid-cols-[0.3fr_1fr] gap-4">
-                      <div className="space-y-2">
-                        <div className="h-3 rounded bg-[#c7ff3d]/20" />
-                        <div className="h-3 rounded bg-white/5" />
-                        <div className="h-3 rounded bg-white/5" />
-                        <div className="h-3 rounded bg-white/5" />
-                      </div>
-
-                      <div>
-                        <div className="h-20 rounded-lg bg-white/5" />
-                        <div className="mt-4 h-3 w-3/4 rounded bg-white/10" />
-                        <div className="mt-2 h-3 w-full rounded bg-white/5" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="order-1 p-8 lg:order-2 lg:p-12">
-                  <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#c7ff3d]">
-                    Project 02 / Portfolio
-                  </p>
-
-                  <h3 className="mt-6 text-4xl font-black">
-                    Personal Developer Portfolio
-                  </h3>
-
-                  <p className="mt-6 max-w-lg text-sm leading-7 text-white/40">
-                    A responsive personal website designed to present
-                    experience, skills, projects, and professional contact
-                    information.
-                  </p>
-
-                  <div className="mt-8 flex flex-wrap gap-2">
-                    {[
-                      "Next.js",
-                      "React",
-                      "TypeScript",
-                      "Responsive Design",
-                      "UI Design",
-                    ].map((tag) => (
-                      <span
-                        key={tag}
-                        className="rounded-full border border-white/10 px-3 py-1.5 text-xs text-white/50"
-                      >
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-
-              </div>
-            </div>
-
           </div>
+
+          <div className="min-h-[350px] bg-[#0b0b0b] p-6">
+            <div className="relative h-full min-h-[300px] overflow-hidden rounded-xl border border-white/10 bg-[#111]">
+              <Image
+                src="/creatorhub-ai.png"
+                alt="CreatorHub AI project screenshot"
+                fill
+                className="object-cover object-top transition duration-500 hover:scale-105"
+              />
+            </div>
+          </div>
+
         </div>
-      </section>
+      </div>
+
+      {/* PROJECT 02 */}
+      <div className="overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.02]">
+        <div className="grid lg:grid-cols-2">
+
+          <div className="order-2 min-h-[350px] bg-[#0b0b0b] p-6 lg:order-1">
+  <div className="relative h-full min-h-[300px] overflow-hidden rounded-xl border border-white/10 bg-[#111]">
+    <Image
+      src="/portfolio.png"
+      alt="Personal developer portfolio screenshot"
+      fill
+      className="object-cover object-top transition duration-500 hover:scale-105"
+    />
+  </div>
+</div>
+          <div className="order-1 p-8 lg:order-2 lg:p-12">
+            <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#c7ff3d]">
+              Project 02 / Portfolio
+            </p>
+
+            <h3 className="mt-6 text-4xl font-black">
+              Personal Developer Portfolio
+            </h3>
+
+            <p className="mt-6 max-w-lg text-sm leading-7 text-white/40">
+              A responsive personal website designed to present
+              experience, skills, projects, and professional contact
+              information.
+            </p>
+
+            <div className="mt-8 flex flex-wrap gap-2">
+              {[
+                "Next.js",
+                "React",
+                "TypeScript",
+                "Responsive Design",
+                "UI Design",
+              ].map((tag) => (
+                <span
+                  key={tag}
+                  className="rounded-full border border-white/10 px-3 py-1.5 text-xs text-white/50"
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
       {/* CONTACT */}
       <section
