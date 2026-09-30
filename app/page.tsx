@@ -47,7 +47,7 @@ export default function Home() {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-10">
 
           <a href="#home" className="text-lg font-black tracking-tight">
-            KURT<span className="text-[#c7ff3d]">.</span>
+            KURT<span className="text-[#c7ff3d]">.DEV</span>
           </a>
 
           <div className="hidden items-center gap-8 text-sm font-medium text-white/50 md:flex">
